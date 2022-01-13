@@ -34,11 +34,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
 				<configuration>
 					<fork>true</fork>
-					<executable>/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java</executable>
+					<executable>/usr/lib/jvm/java-8-openjdk-amd64</executable>
 				</configuration>
 			</plugin>
 		</plugins>
