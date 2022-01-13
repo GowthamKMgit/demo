@@ -33,11 +33,7 @@
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
-				<version>3.1</version>
-				<configuration>
-					<fork>true</fork>
-					<executable>/usr/lib/jvm/java-8-openjdk-amd64</executable>
-				</configuration>
+				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
